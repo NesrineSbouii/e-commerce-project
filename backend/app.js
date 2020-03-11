@@ -57,4 +57,8 @@ app.use((req, res, next) => {
       .then(things => res.status(200).json(things))
       .catch(error => res.status(400).json({ error }));
   });
+
+  /*
+  lol
+  */
 module.exports = app;
